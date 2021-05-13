@@ -37,7 +37,7 @@ const routeHandler = (req, res) => {
                     names.push(name);
                 }
                 fs.writeFile('names.txt', names.join(','), () => {
-                    res.statusCode = 201;
+                    res.statusCode = 302;
                     res.setHeader('Location','/users');
                     res.end();
                 });
