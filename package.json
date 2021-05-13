@@ -1,0 +1,23 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "Assignment 1",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshan1821/node-assigment-1.git"
+  },
+  "author": "Darshan Bangoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darshan1821/node-assigment-1/issues"
+  },
+  "homepage": "https://github.com/Darshan1821/node-assigment-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

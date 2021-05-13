@@ -67,7 +67,12 @@ const routeHandler = (req, res) => {
             } else {
                 res.write(`<h1>No user found !!</h1>`);
             }
-
+            res.write(`
+                    <br>
+                    <form action = '/' method = 'POST'>
+                        <button type = 'submit' value = 'Add User'> Add User </button>
+                    </form>
+            `);
             res.write(`</body></html>`);
             res.statusCode = 200;
             res.end();
